@@ -14,7 +14,42 @@ ________________
 
 id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
 nome_corso - VARCHAR(30) - NOT NULL
-dipartimento - VARCHAR(30) - NOT NULL
+dipartimento - VARCHAR(30) - NOT NULL 
 
+________________
+
+corsi 
+
+________________
+
+id - 
+nome_corso - 
+durata -
+materiale_didattico - 
+corso_di_laurea_id - 
+
+________________
+
+esami
+
+________________
+
+id - 
+nome_esame -
+crediti - 
+data - 
+
+________________
+
+insegnanti 
+
+________________
+
+id - 
+nome -
+cognome - 
+titolo - 
+
+________________
 
 
