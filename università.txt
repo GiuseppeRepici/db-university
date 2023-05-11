@@ -1,0 +1,20 @@
+dipartimenti
+________________
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+nome_dipartimento - VARCHAR(30) - NOT NULL
+sede - VARCHAR(30) - NOT NULL
+area_didattica - VARCHAR(30) - NOT NULL
+
+________________
+
+
+corsi_di_laurea
+________________
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+nome_corso - VARCHAR(30) - NOT NULL
+dipartimento - VARCHAR(30) - NOT NULL
+
+
+
